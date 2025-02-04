@@ -4,6 +4,7 @@
 This project implements a **Single Precision Floating Point Unit (FPU)** that performs **addition, subtraction, multiplication, and division** using the IEEE-754 standard for 32-bit floating-point numbers.
 
 ## Features
+- **UART Communication**: Used to send IEEE-754 numbers to the FPGA and receive computed results back to the terminal.
 - **IEEE-754 Compliance**: Supports 32-bit floating-point representation.
 - **Arithmetic Operations**: 
   - Addition (`+`)
@@ -39,7 +40,6 @@ Each 32-bit floating-point number consists of:
   - Divide mantissas
   - Subtract exponents (adjusting for bias)
   - Normalize the result
-
 
 https://github.com/user-attachments/assets/57f0f933-0bb7-496a-a7d6-f510334dcff3
 
