@@ -32,11 +32,14 @@ Each 32-bit floating-point number consists of:
   - Normalize the result
 
 - **Multiplication**:
+  - Used Karatsuba Algorithm
   - Multiply mantissas
   - Add exponents (adjusting for bias)
   - Normalize the result
 
 - **Division**:
+  - Used Non restoring Algorithm
+  - Implemented restoring algorithm additionally
   - Divide mantissas
   - Subtract exponents (adjusting for bias)
   - Normalize the result
