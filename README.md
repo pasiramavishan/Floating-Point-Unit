@@ -48,6 +48,8 @@ Each 32-bit floating-point number consists of:
   - Subtract exponents (adjusting for bias)
   - Normalize the result
 
+
+Here are some demonstrations. The operation should be selected using slide switches before the operands through UART.
 https://github.com/user-attachments/assets/57f0f933-0bb7-496a-a7d6-f510334dcff3
 
 https://github.com/user-attachments/assets/925df302-8898-4f5f-a750-0affd25b3686
